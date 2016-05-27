@@ -1,2 +1,0 @@
-# repo
-coś tu dopisałem
