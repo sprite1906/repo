@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
   </head>
  <body>
-  <h1>Here you can create your own album</h1>
+  <h1>Stwórz swój własny album ze zdjęciami</h1>
   <form class="dropzone" id="dropzoneForm" action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">
    <input type="file" name="file"/>
    <button type="submit">{{ uploadButtonName }}</button>
